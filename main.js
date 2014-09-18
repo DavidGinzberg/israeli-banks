@@ -16,7 +16,7 @@ function buildTableOfBanks(){
                     
                     
                 }))
-            .appendTo('body');
+            .appendTo('#tableContainer');
         
     });
 }

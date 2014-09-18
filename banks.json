@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Bank of Israel",
+        "nameInHebrew": "בנק ישראל",
+        "isCentralBank": true,
+        "openFriday": null
+    },
+    {
+        "name": "Bank Hapoalim",
+        "nameInHebrew": "בנק הפועלום",
+        "isCentralBank": false,
+        "openFriday": null
+    },
+    {
+        "name": "Bank Leumi",
+        "nameInHebrew": "בנק לאומי",
+        "isCentralBank": false,
+        "openFriday": null
+    },
+    {
+        "name": "Israel Discount Bank",
+        "nameInHebrew": "בנק דיסקונט לישראל בע\"ם",
+        "isCentralBank": false,
+        "openFriday": null
+    },
+    {
+        "name": "First International Bank of Israel",
+        "nameInHebrew": "הבינלאומי בנק",
+        "isCentralBank": false,
+        "openFriday": null
+    },
+    {
+        "name": "Bank Mizrahi-Tefahot",
+        "nameInHebrew": "בנק מזרחי טפחות",
+        "isCentralBank": false,
+        "openFriday": null
+    },
+    {
+        "name": "Bank Otsar Ha-Hayal",
+        "nameInHebrew": "בנק אוצר החייל",
+        "isCentralBank": false,
+        "openFriday": null
+    },
+    {
+        "name": "Union Bank of Israel",
+        "nameInHebrew": "בנק אגוד",
+        "isCentralBank": false,
+        "openFriday": null
+    }
+]

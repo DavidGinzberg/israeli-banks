@@ -3,48 +3,158 @@
         "name": "Bank of Israel",
         "nameInHebrew": "בנק ישראל",
         "isCentralBank": true,
-        "openFriday": null
+        "openFriday": null,
+		"website":	"http://www.boi.org.il/en/Pages/Default.aspx"
     },
     {
         "name": "Bank Hapoalim",
         "nameInHebrew": "בנק הפועלום",
         "isCentralBank": false,
-        "openFriday": null
+        "openFriday": null,
+		"website":	"http://www.bankhapoalim.com/"
     },
     {
         "name": "Bank Leumi",
         "nameInHebrew": "בנק לאומי",
         "isCentralBank": false,
-        "openFriday": null
+        "openFriday": null,
+		"website":	"http://english.leumi.co.il/",
+		hasInternationalBranches:	true,
+		branches:	[
+			{
+				"name":	"Headquarters",
+				"address":	{
+					"number":	"579",
+					"street":	"Fifth Avenue",
+					"city":	"New York",
+					"state":	"NY",
+					"country":	"USA",
+					"postalCode":	"10017"
+				},
+				"telephone":	["1 800 892 5430", "1 917 542 2343"]
+			},
+			{
+				"name":	"International Private Banking",
+				"address":	{
+					"number":	"579",
+					"street":	"Fifth Avenue",
+					"extra":	"2nd Floor",
+					"city":	"New York",
+					"state":	"NY",
+					"country":	"USA",
+					"postalCode":	"10036"
+				},
+				"telephone":	["1 212 626 1010"]
+			},
+			{
+				"name":	"US Private Banking",
+				"address":	{
+					"number":	"579",
+					"street":	"Fifth Avenue",
+					"city":	"New York",
+					"state":	"NY",
+					"country":	"USA",
+					"postalCode":	"10017"
+				},
+				"telephone":	["1 917 542 2343"]
+			},
+			{
+				"name":	"International & Technology Banking",
+				"address":	{
+					"number":	"579",
+					"street":	"Fifth Avenue",
+					"city":	"New York",
+					"state":	"NY",
+					"country":	"USA",
+					"postalCode":	"10017"
+				},
+				"telephone":	["1 917 542 2343"]
+			},
+			{
+				"name":	"Bank Leumi Leasing Corporation",
+				"address":	{
+					"number":	"579",
+					"street":	"Fifth Avenue",
+					"city":	"New York",
+					"state":	"NY",
+					"country":	"USA",
+					"postalCode":	"10017"
+				},
+				"telephone":	["1 914 542 2343"]
+			},
+			{
+				"name":	"Leumi Investment Services Inc (LISI)",
+				"address":	{
+					"number":	"562",
+					"street":	"Fifth Avenue",
+					"city":	"New York",
+					"state":	"NY",
+					"country":	"USA",
+					"postalCode":	"10036"
+				},
+				"telephone":	["1 917 542 2343"]
+			},
+			{
+				"name":	"Bank Leumi USA Los Angeles",
+				"address":	{
+					"number":	"555",
+					"street":	"W. Fifth St.",
+					"extra":	"33rd Floor",
+					"city":	"Los Angeles",
+					"state":	"CA",
+					"country":	"USA",
+					"postalCode":	"90013"
+				},
+				"telephone":	["1 213 452 8600"]
+			},
+			{
+				"name":	"Bank Leumi USA Palo Alto",
+				"address":	{
+					"number":	"2000",
+					"street":	"University Avenue",
+					"extra":	"Suite 605",
+					"city":	"Palo Alto",
+					"state":	"CA",
+					"country":	"USA",
+					"postalCode":	"94303"
+				},
+				"telephone":	["1 650 289 2400"]
+			}
+			]
     },
     {
         "name": "Israel Discount Bank",
         "nameInHebrew": "בנק דיסקונט לישראל בע\"ם",
         "isCentralBank": false,
-        "openFriday": null
+        "openFriday": null,
+		"website":	""
     },
     {
         "name": "First International Bank of Israel",
         "nameInHebrew": "הבינלאומי בנק",
         "isCentralBank": false,
-        "openFriday": null
+        "openFriday": null,
+		"website":	""
     },
     {
         "name": "Bank Mizrahi-Tefahot",
         "nameInHebrew": "בנק מזרחי טפחות",
         "isCentralBank": false,
-        "openFriday": null
+        "openFriday": null,
+		"website":	""
     },
     {
         "name": "Bank Otsar Ha-Hayal",
         "nameInHebrew": "בנק אוצר החייל",
         "isCentralBank": false,
-        "openFriday": null
+        "openFriday": null,
+		"website":	""
     },
     {
         "name": "Union Bank of Israel",
         "nameInHebrew": "בנק אגוד",
         "isCentralBank": false,
-        "openFriday": null
+        "openFriday": null,
+		"website":	""
     }
 ]

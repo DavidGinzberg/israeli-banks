@@ -12,7 +12,7 @@ function buildTableOfBanks(){
                     return $('<tr/>')
                         .append('<th>' + item.name + '</th>')
                         .append('<td>' + item.nameInHebrew + '</td>')
-                        .append('<td>' + item.openFriday==null?"Unknown":item.openFriday?"Yes":"No" + '</td>');
+                        .append('<td>' + (item.openFriday==null?"Unknown":item.openFriday?"Yes":"No") + '</td>');
                     
                     
                 }))

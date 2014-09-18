@@ -9,6 +9,7 @@ function buildTableOfBanks(){
         $("<table/>").append(headerRow)
             .append(
                 $.map(result, function(item, index){
+                    console.debug("Type of 'openFriday':\t" + typeof(item.openFriday));
                     return $('<tr/>')
                         .append('<th>' + item.name + '</th>')
                         .append('<td>' + item.nameInHebrew + '</td>')

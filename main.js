@@ -21,7 +21,5 @@ function buildTableOfBanks(){
 }
 
 $(document).ready(function(){
-    $("#tableContainer").detach()
-                        .html(buildTableOfBanks())
-                        .appendTo('body');
+    $("#tableContainer").html(buildTableOfBanks());
 });

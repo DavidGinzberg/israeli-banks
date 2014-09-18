@@ -1,7 +1,7 @@
 
 /*Build the table of banks based on the JSON data in banks.js*/
 function buildTableOfBanks(){
-    $.getJSON("banks.json", function(result){
+    return $.getJSON("banks.json", function(result){
         var headerRow = $("<tr/>")
                             .append("<th>Name</th>")
                             .append("<th>Hebrew Name</th>")
@@ -15,12 +15,13 @@ function buildTableOfBanks(){
                         .append('<td>' + (item.openFriday==null?"Unknown":item.openFriday?"Yes":"No") + '</td>');
                     
                     
-                }))
-            .appendTo('#tableContainer');
+                }));
         
     });
 }
 
 $(document).ready(function(){
-    buildTableOfBanks();
+    $("#tableContainer").detach()
+                        .html(buildTableOfBanks())
+                        .appendTo('body');
 });
